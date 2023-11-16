@@ -1,0 +1,69 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Text', sans-serif;
+}
+:root{
+    /* ### Primary */
+
+    --Grayishblue: hsl(237, 18%, 59%);
+    --Softred: hsl(345, 95%, 68%);
+
+    /* ### Neutral */
+
+--White: hsl(0, 0%, 100%);
+--Darkdesaturatedblue: hsl(236, 21%, 26%);
+--Verydarkblue: hsl(235, 16%, 14%);
+--Verydark_mostlyblackblue: hsl(234, 17%, 12%);
+}
+body{
+font-size: 14px;
+padding: 10% 20%  20%;
+background-color: var(--Verydark_mostlyblackblue);
+background-image: url(/images/pattern-hills.svg),url(images/bg-stars.svg);
+background-repeat: no-repeat;
+background-size: auto;
+background-position: bottom;
+}
+h2{
+    text-align: center;
+    color: var(--White);
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    font-size: 1.1em;
+
+    
+}
+.container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.card{
+    padding: 30px;
+    color: var(--Grayishblue);
+    font-size: .8em;
+    text-align: center;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    
+}
+.card p{
+    font-size: .7em;
+
+}
+.card-body{
+    padding: 20px;
+    background-color: var(--Darkdesaturatedblue);
+    color: var(--Softred);
+    font-size: 2.3em;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
